@@ -29,4 +29,4 @@ export class RegisterComponent {
   get confirmPassword(){
     return this.registerForm.controls['confirmPassword']
   }
-}
+} 
