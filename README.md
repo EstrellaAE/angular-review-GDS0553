@@ -1,38 +1,19 @@
 # Estrella Guadalupe Aguayo Exiga
 # GDS0553
 
-# Instalacion
-- Clonar el repositorio
-- 
-  git clone URL
-  
-- # Instalar los modulos
-- Cambiarse al directorio
-- cd [Nombre_proyecto]
-- Mediante nom instalar los modulos
- 
- npm install
+This project was generated with Angular CLI version 17.1.1.
 
-
-- npm install json-server
-
-
-npm install primeng 
-
-
-# levantar el servidor y el  Json-Server
-Levantar el Json-Serve
-
+Instalación
+Clonar el repositorio
+git clone 
+Instalar los módulos
+Mediante npm instalar los módulos.
+npm install
+Levantar el Servidor Json-Server
+El FrontEnd lo decodifica y verifica que sea válido.
 json-server --watch db.json
+Ejecutar el servidor
+-ng server -o
 
-
-ejecutar el servidor
-
-ng server --open
-
-
-
-
-# Ingresar a la URL
-
-<a href="https://localhost:4200/" title="Optional title">Ingresar a la pagina</a>
+Ingresar a la URL
+http://localhost:4200
