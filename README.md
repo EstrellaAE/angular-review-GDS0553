@@ -5,7 +5,7 @@ This project was generated with Angular CLI version 17.1.1.
 
 Instalación
 Clonar el repositorio
-git clone 
+git clone https://github.com/EstrellaAE/angular-review-GDS0553.git
 Instalar los módulos
 Mediante npm instalar los módulos.
 npm install
