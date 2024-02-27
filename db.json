@@ -155,57 +155,12 @@
       "fullname": "estrella",
       "email": "ae@gmail.com",
       "password": "1234"
-<<<<<<< HEAD
     },
     {
-      "id": "7668",
-      "fullname": "estrella",
-      "email": "est@gmail.com",
-      "password": "12"
-    },
-    {
-      "id": "194d",
-      "fullname": "diego",
-      "email": "die@gmail.com",
+      "id": "1ac2",
+      "fullname": "luis",
+      "email": "luis@gmail.com",
       "password": "123"
-    },
-    {
-      "id": "c66a",
-      "fullname": "diegoo",
-      "email": "diegoo@gmail.com",
-      "password": "123"
-    },
-    {
-      "id": "86f3",
-      "fullname": "yoong",
-      "email": "yoon@gmail.com",
-      "password": "123"
-    },
-    {
-      "id": "9e1e",
-      "fullname": "estrella",
-      "email": "estrella@gmail.com",
-      "password": "1111f"
-    },
-    {
-      "id": "d4d0",
-      "fullname": "estrella",
-      "email": "estrella@gmail.com",
-      "password": "1234"
-    },
-    {
-      "id": "f577",
-      "fullname": "diego",
-      "email": "diego@gmail.com",
-      "password": "12345"
-    },
-    {
-      "id": "4e96",
-      "fullname": "Andrea",
-      "email": "andrea@gmail.com",
-      "password": "123Andrea"
-=======
->>>>>>> 6aa91eeaef74d443e02809e86717e73bd334ec34
     }
   ]
 }

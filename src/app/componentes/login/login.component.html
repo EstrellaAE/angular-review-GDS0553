@@ -11,6 +11,8 @@
               formControlName="password" 
               placeholder="Ingresa contraseña" [toggleMask]="true" styleClass="w-full"></p-password>
           </div>
+          <small *ngIf="password.invalid && (password.dirty || password.touched)" class="bloc p-error">Se requiere contraseña</small>
+
           <p-button label="Ingresar" type="submit" styleClass="w-full"></p-button>
   
           <div class="mt-2">

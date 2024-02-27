@@ -1,10 +1,6 @@
 import { Component } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
-<<<<<<< HEAD
 import { passwordMatchValidator } from '../../../shared/password-match.directives';
-=======
-import { passwordMatchValidator } from '../../../appshared/password-match.directives';
->>>>>>> 6aa91eeaef74d443e02809e86717e73bd334ec34
 import { privateDecrypt } from 'crypto';
 import { AuthService } from '../../services/auth.service';
 import { MessageService } from 'primeng/api';
@@ -22,11 +18,9 @@ export class RegisterComponent {
     email:['',[Validators.required, Validators.email]],
     password:['',Validators.required],
     confirmPassword:['',Validators.required]
-<<<<<<< HEAD
   },{
     validators: passwordMatchValidator
-=======
->>>>>>> 6aa91eeaef74d443e02809e86717e73bd334ec34
+
   });
 
   constructor(private fb:FormBuilder,
@@ -60,11 +54,8 @@ export class RegisterComponent {
     delete datos.confirmPassword;
 
     this.authService.registerUser(datos as Auth).subscribe(
-<<<<<<< HEAD
       response=>{
-=======
-            response=>{
->>>>>>> 6aa91eeaef74d443e02809e86717e73bd334ec34
+
         this.messageService.add({
           severity:'success',
           summary:'Registro Exitoso',
