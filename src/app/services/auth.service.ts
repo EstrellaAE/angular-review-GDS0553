@@ -19,5 +19,9 @@ export class AuthService {
     getUserByEmail(correo:string):Observable<Auth[]>{
       return this.http.get<Auth[]>(`${this.baseUrl}/users?email=${correo}`);
 }
+<<<<<<< HEAD
 }
 
+=======
+}
+>>>>>>> 6aa91eeaef74d443e02809e86717e73bd334ec34

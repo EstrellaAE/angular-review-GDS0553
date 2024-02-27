@@ -1,4 +1,5 @@
 <form [formGroup]="registerForm" (ngSubmit)="enviarUsuario()">
+<<<<<<< HEAD
   <p-card header="Registrar Mienbro" [style]="{width:'360px'}">
       <div class="field">
           <input type="text" pInputText formControlName="fullname" 
@@ -40,3 +41,34 @@
       </div>
   </p-card>
 </form>
+=======
+    <p-card header="Registrar Miembro" [style]="{width: '360px'}"> 
+      <div class="field"><input type="text" pInputText formControlName="fullname"
+          placeholder="Nombre completo" class="w-full"/></div>
+          <small *ngIf="fullname.invalid && (fullname.dirty || fullname.touched)" class="bloc, p-error">
+              <div *ngIf="fullname.hasError('required')">Ingresa Nombre Completo</div>
+          </small>
+          <div class="field"><input type="text" pInputText formControlName="email"
+            placeholder="Ingresa Email" class="w-full"/></div>
+            <small *ngIf="email.invalid && (email.dirty || email.touched)" class="bloc, p-error">
+                <div *ngIf="email.hasError('required')">Ingresa Email</div>
+                <div *ngIf="email.hasError('email')">Email Incorrecto</div>
+            </small>
+          <div class="field">
+              <p-password 
+              formControlName="password" 
+              placeholder="Ingresa contraseña" [toggleMask]="true" styleClass="w-full"></p-password>
+          </div>
+          <div class="field">
+            <p-password 
+            formControlName="confirmPassword" 
+            placeholder="Confirmar contraseña" [toggleMask]="true" styleClass="w-full"></p-password>
+        </div>
+          <p-button label="Registrar" type="submit" styleClass="w-full"></p-button>
+  
+          <div class="mt-2">
+              ¿Ya tienes tu cuenta? <a routerLink="/login">Ingresar</a>
+          </div>
+    </p-card>
+  </form>
+>>>>>>> 6aa91eeaef74d443e02809e86717e73bd334ec34

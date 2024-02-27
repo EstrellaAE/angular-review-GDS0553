@@ -155,6 +155,7 @@
       "fullname": "estrella",
       "email": "ae@gmail.com",
       "password": "1234"
+<<<<<<< HEAD
     },
     {
       "id": "7668",
@@ -203,6 +204,8 @@
       "fullname": "Andrea",
       "email": "andrea@gmail.com",
       "password": "123Andrea"
+=======
+>>>>>>> 6aa91eeaef74d443e02809e86717e73bd334ec34
     }
   ]
 }
